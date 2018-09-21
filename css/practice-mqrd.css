@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+
+  .column {
+    width: 250px;
+    float: left;
+    padding: 20px;
+    border-style: double solid double solid;
+    margin: 5px;
+  }
+
+  .column h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+
+  .column {
+    width: 190px;
+    float: left;
+    padding: 15px;
+    border-style: double solid double solid;
+    margin: 5px;
+  }
+
+  .column h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  body {
+    background-color: darkgray;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .column {
+    width: 175px;
+    float: left;
+    padding: 10px;
+    border-style: double solid double solid;
+    margin: 2px;
+  }
+
+  .column h4 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  body {
+    background-color: silver;
+  }
+}
